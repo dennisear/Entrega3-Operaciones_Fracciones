@@ -2,6 +2,8 @@
 
 def mcd(a, b):
   
+  """Función que calcula el MCD de dos enteros y los convierte a fracción"""
+  
     if a > b:
         peq = b
     else:
@@ -17,6 +19,7 @@ def mcd(a, b):
 #/-----SIMPLIFICACIÓN DE FRACCIONES-----/
 
 def simplif(a, b):
+    """Función que simplifica una fracción"""
     
     mcd(a, b)  
            
@@ -32,6 +35,8 @@ def simplif(a, b):
 #/-----SUMA DE FRACCIONES-----/
 
 def suma(a,a2,b,b2):    
+    """Función que calcula la suma entre dos fracciones"""
+
     
     while a2!=0 and b2!=0:
         
@@ -47,6 +52,7 @@ def suma(a,a2,b,b2):
 
 
 #/-----RESTA DE FRACCIONES-----/
+    """Función que calcula la resta entre dos fracciones"""
 
 def resta(a,a2,b,b2):    
     
@@ -64,6 +70,7 @@ def resta(a,a2,b,b2):
 
 
 #/-----MULTIPLICACIÓN DE FRACCIONES-----/
+    """Función que calcula la multiplicación entre dos fracciones"""
 
 def mult(a,a2,b,b2):   
     
@@ -78,6 +85,8 @@ def mult(a,a2,b,b2):
 
 
 #/-----DIVISIÓN DE FRACCIONES-----/
+    """Función que calcula la división entre dos fracciones"""
+
 
 def div(a,a2,b,b2):
     
